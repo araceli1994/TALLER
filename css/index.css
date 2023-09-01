@@ -1,9 +1,20 @@
 .navbar{
     background-color: red;
+    color: white;
 }
-.container-fluid{
+.content_navbar{
     display: block;
 }
-.nav-link{
+.footer{
+    background: red;
+    color: white;
+    height: 120px;
+    width: 100%;
+    bottom: 0px;    
+}
+.content_footer{
+    padding-top: 30px;
+}
+.text_footer{
     text-align: center;
 }
