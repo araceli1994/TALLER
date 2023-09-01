@@ -1,0 +1,25 @@
+.navbar{
+    background-color: red;
+}
+.container-fluid{
+    display: block;
+}
+.nav-link{
+    text-align: center;
+}
+/* Agrega este estilo en tu archivo de hoja de estilos CSS */
+footer {
+    background-color: red; 
+    color: #fff; 
+    text-align: center;
+    padding: 2rem;
+
+}
+
+footer p:last-child {
+    font-weight: 100;
+    font-size: 1.2rem;
+    margin-top: 10px;
+
+}
+
