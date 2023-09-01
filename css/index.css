@@ -1,0 +1,9 @@
+.navbar{
+    background-color: red;
+}
+.container-fluid{
+    display: block;
+}
+.nav-link{
+    text-align: center;
+}
