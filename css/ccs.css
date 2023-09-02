@@ -8,18 +8,67 @@
     text-align: center;
 }
 /* Agrega este estilo en tu archivo de hoja de estilos CSS */
-footer {
-    background-color: red; 
-    color: #fff; 
+.footer {
+    background-color: #cc1c1c;
+    color: #fff;
     text-align: center;
-    padding: 2rem;
-
+    padding: 10px;
+    position: fixed; /* Fija el footer en la parte inferior */
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
-footer p:last-child {
-    font-weight: 100;
-    font-size: 1.2rem;
-    margin-top: 10px;
 
+.container {
+    display: flex; /* Utiliza un contenedor flexible */
+    justify-content: space-between; /* Separa los elementos horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 10px;
+    float: left;
+}
+.cuadro {
+    width: 1100px; /* Ancho del cuadro */
+    margin: 100px 100px; /* Margen exterior y centrado horizontalmente */
+    border: 1px solid #ccc; /* Borde para visualización */
+    overflow: hidden; /* Evita que los contenidos se desborden */
+    
 }
 
+/* Estilos para la parte de texto */
+.text {
+    flex: 1; 
+    font-family: Arial, Helvetica, sans-serif;/* El texto ocupará el espacio disponible */
+}
+
+/* Estilos para la imagen */
+.image {
+    flex: 1; /* La imagen ocupará el espacio disponible */
+    text-align: right; /* Alinea la imagen a la derecha */
+}
+
+/* Estilos para la imagen dentro del div */
+.image img {
+    max-width: 100%; /* Ajusta la imagen al ancho del div */
+    height: auto; /* Mantén la proporción de aspecto */
+}
+
+.boton {
+ 
+   
+  
+    display:grid;  
+    color: #eeebeb;
+    background-color: red;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto; /* Centra horizontalmente el botón */
+    width: fit-content; /* Ajusta el ancho del botón al contenido */
+    padding: 10px 20px; /* Agrega relleno al botón */
+    border-radius: 0px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    position: absolute; /* Posición absoluta en relación al contenedor */
+    top: 600px; /* Distancia desde el margen superior del contenedor */
+    left: 50%; /* Centra el botón horizontalmente */
+}
