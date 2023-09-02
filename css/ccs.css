@@ -4,46 +4,42 @@
 .container-fluid{
     display: block;
 }
-.nav-link{
-    text-align: center;
+
+.navbar-text {
+    text-align: center; /* Alinea el texto al centro */
+    width: 100%; /* Ancho al 100% para centrar horizontalmente */
+    font-size: 40px;
 }
+
 /* Agrega este estilo en tu archivo de hoja de estilos CSS */
-.footer {
-    background-color: #cc1c1c;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: fixed; /* Fija el footer en la parte inferior */
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
-
-
 .container {
     display: flex; /* Utiliza un contenedor flexible */
     justify-content: space-between; /* Separa los elementos horizontalmente */
     align-items: center; /* Centra verticalmente los elementos */
     padding: 10px;
     float: left;
+  
+  
 }
 .cuadro {
-    width: 1100px; /* Ancho del cuadro */
-    margin: 100px 100px; /* Margen exterior y centrado horizontalmente */
+    display: flex;
+    width: 1200px; /* Ancho del cuadro */
+    margin: 150px auto; /* Margen exterior y centrado horizontalmente */
     border: 1px solid #ccc; /* Borde para visualización */
     overflow: hidden; /* Evita que los contenidos se desborden */
+    
     
 }
 
 /* Estilos para la parte de texto */
 .text {
-    flex: 1; 
+    flex: 2; 
     font-family: Arial, Helvetica, sans-serif;/* El texto ocupará el espacio disponible */
 }
 
 /* Estilos para la imagen */
 .image {
-    flex: 1; /* La imagen ocupará el espacio disponible */
+    flex: 1.3; /* La imagen ocupará el espacio disponible */
     text-align: right; /* Alinea la imagen a la derecha */
 }
 
@@ -54,21 +50,32 @@
 }
 
 .boton {
- 
-   
-  
     display:grid;  
     color: #eeebeb;
     background-color: red;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     margin: 0 auto; /* Centra horizontalmente el botón */
     width: fit-content; /* Ajusta el ancho del botón al contenido */
-    padding: 10px 20px; /* Agrega relleno al botón */
+    padding: 10px 40px; /* Agrega relleno al botón */
     border-radius: 0px;
     font-family: Arial, sans-serif;
     text-decoration: none;
     position: absolute; /* Posición absoluta en relación al contenedor */
-    top: 600px; /* Distancia desde el margen superior del contenedor */
-    left: 50%; /* Centra el botón horizontalmente */
+    top: 650px; /* Distancia desde el margen superior del contenedor */
+    left: 46%; /* Centra el botón horizontalmente */
 }
+footer {
+    background-color: red; /* Color de fondo del pie de página */
+    color: #fff; /* Color del texto en el pie de página */
+    text-align: center; /* Alinea el texto al centro */
+    padding: 20px 0; /* Agrega relleno en la parte superior e inferior */
+    font-size: 30px; /* Tamaño de fuente */
+}
+
+
+
+
+
+
+
