@@ -2,8 +2,64 @@
     background-color: red;
     color: white;
 }
-.content_navbar{
-    display: block;
+
+.text_navbar{
+    text-align: center;
+}
+.container {
+    display: flex; /* Utiliza un contenedor flexible */
+    justify-content: space-between; /* Separa los elementos horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding-left: 150px;
+    padding-right: 150px;
+    padding: 20px;
+}
+
+.cuadro {
+    display: flex;
+    width: 700px; /* Ancho del cuadro */
+    margin: 70px auto; /* Margen exterior y centrado horizontalmente */
+    border: 1px solid #ccc; /* Borde para visualización */
+    overflow: hidden; /* Evita que los contenidos se desborden */
+    
+    
+}
+
+/* Estilos para la parte de texto */
+.text {
+    flex: 2; 
+    font-family: Arial, Helvetica, sans-serif;/* El texto ocupará el espacio disponible */
+}
+
+/* Estilos para la imagen */
+.image {
+    flex: 1.3; /* La imagen ocupará el espacio disponible */
+    text-align: right; /* Alinea la imagen a la derecha */
+}
+
+/* Estilos para la imagen dentro del div */
+.image img {
+    max-width: 100%; /* Ajusta la imagen al ancho del div */
+    height: auto; /* Mantén la proporción de aspecto */
+}
+
+.boton {
+    display:grid;  
+    color: #eeebeb;
+    background-color: red;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto; /* Centra horizontalmente el botón */
+    width: fit-content; /* Ajusta el ancho del botón al contenido */
+    padding: 10px; /* Agrega relleno al botón */
+    border-radius: 0px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    top: 650px; /* Distancia desde el margen superior del contenedor */
+    left: 46%; /* Centra el botón horizontalmente */
+}
+.btn_biografia{
+    padding: 10px;
 }
 .footer{
     background: red;
